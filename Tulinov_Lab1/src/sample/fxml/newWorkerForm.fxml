@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="540.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.NewWorkerForm">
+
+    <AnchorPane layoutX="-4.0" layoutY="7.0" prefHeight="355.0" prefWidth="548.0">
+        <children>
+            <Button fx:id="addButton" layoutX="360.0" layoutY="20.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="165.0" style="-fx-background-color: #9966CC;" text="Добавить" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="359.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="166.0" style="-fx-background-color: #9966CC;" text="Сброс" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <TextField fx:id="idWorker_MedField" prefHeight="40.0" prefWidth="335.0" promptText="Введите id медицинского учереждения" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </TextField>
+            <TextField fx:id="Worker_specField" layoutY="163.0" prefHeight="40.0" prefWidth="335.0" promptText="Введите специализацию" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </TextField>
+            <TextField fx:id="Worker_categoryField" layoutY="203.0" prefHeight="40.0" prefWidth="335.0" promptText="Введите категорию" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </TextField>
+            <TextField fx:id="Worker_typeField" layoutY="243.0" prefHeight="40.0" prefWidth="335.0" promptText="Введите тип" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </TextField>
+            <Button fx:id="goBackButton" layoutX="359.0" layoutY="223.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="166.0" style="-fx-background-color: #9966CC;" text="Назад" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+         <TextField fx:id="Worker_nameField" layoutY="40.0" prefHeight="40.0" prefWidth="335.0" promptText="Введите имя рабочего" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="Worker_surnameField" layoutY="80.0" prefHeight="40.0" prefWidth="335.0" promptText="Введите фамилию рабочего" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="Worker_patronymicField" layoutY="120.0" prefHeight="40.0" prefWidth="335.0" promptText="Введите отчество рабочего" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </TextField>
+        </children></AnchorPane>
+
+</AnchorPane>

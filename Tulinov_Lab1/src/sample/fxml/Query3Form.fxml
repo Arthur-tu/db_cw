@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="1013.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Query3FormController">
+
+    <AnchorPane prefHeight="360.0" prefWidth="1007.0">
+        <children>
+            <Button fx:id="select_Med_Btn" layoutX="12.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="236.0" style="-fx-background-color: #9966CC;" text="Указать данные" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="816.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Назад" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <TableView fx:id="table_1" layoutX="12.0" layoutY="14.0" prefHeight="288.0" prefWidth="987.0">
+                <columns>
+                    <TableColumn fx:id="name_clm" prefWidth="101.0" text="Имя" />
+                    <TableColumn fx:id="surname_clm" prefWidth="86.0" text="Фамилия" />
+                    <TableColumn fx:id="patronymic_clm" prefWidth="131.0" text="Отчетсво" />
+                    <TableColumn fx:id="date_clm" prefWidth="88.0" text="Дата поступления" />
+                    <TableColumn fx:id="health_clm" prefWidth="99.0" text="Состояние" />
+                    <TableColumn fx:id="med_clm" prefWidth="96.0" text="Медицинское учереждение" />
+                    <TableColumn fx:id="temperature_clm" prefWidth="54.0" text="Температура" />
+               <TableColumn fx:id="doc_name" prefWidth="117.0" text="Имя Врача" />
+               <TableColumn fx:id="doc_surname" prefWidth="106.0" text="Фамилия Врача" />
+               <TableColumn fx:id="doc_patr" prefWidth="103.0" text="Отчество Врача" />
+                </columns>
+            </TableView>
+            <Button fx:id="execute1Btn" layoutX="266.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="236.0" style="-fx-background-color: #9966CC;" text="Выполнить запрос" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+        </children></AnchorPane>
+
+</AnchorPane>

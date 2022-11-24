@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="704.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.WorkerFormController">
+
+    <AnchorPane prefHeight="360.0" prefWidth="704.0">
+        <children>
+            <Button fx:id="addWorkerButton" layoutX="14.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Добавить рабочего" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="198.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Удалить рабочего" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="517.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Назад" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <TableView fx:id="table_10" layoutX="12.0" layoutY="14.0" prefHeight="288.0" prefWidth="682.0">
+                <columns>
+                    <TableColumn fx:id="id_med_clm" prefWidth="81.0" text="med_id" />
+                    <TableColumn fx:id="worker_name_clm" prefWidth="82.0" text="name" />
+                    <TableColumn fx:id="worker_surname_clm" prefWidth="87.0" text="surname" />
+                    <TableColumn fx:id="worker_pat_clm" prefWidth="97.0" text="patronymic" />
+                    <TableColumn fx:id="worker_spec_clm" prefWidth="113.0" text="specialzation" />
+                    <TableColumn fx:id="category_clm" prefWidth="106.0" text="category" />
+                    <TableColumn fx:id="type_clm" prefWidth="114.0" text="type" />
+                </columns>
+            </TableView>
+            <Button fx:id="changeButton111" layoutX="389.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: #9966CC;" text="Изменить" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+        </children></AnchorPane>
+
+</AnchorPane>

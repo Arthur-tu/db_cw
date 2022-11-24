@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="771.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Query2FormController">
+
+    <AnchorPane layoutX="-8.0" prefHeight="360.0" prefWidth="791.0">
+        <children>
+            <Button fx:id="select_Med_Btn" layoutX="12.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="236.0" style="-fx-background-color: #9966CC;" text="Указать данные" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="594.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Назад" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <TableView fx:id="table_1" layoutX="12.0" layoutY="14.0" prefHeight="288.0" prefWidth="759.0">
+                <columns>
+                    <TableColumn fx:id="name_clm" prefWidth="101.0" text="Имя" />
+                    <TableColumn fx:id="surname_clm" prefWidth="86.0" text="Фамилия" />
+                    <TableColumn fx:id="patronymic_clm" prefWidth="131.0" text="Отчетсво" />
+                    <TableColumn fx:id="count_clm" prefWidth="91.0" text="Общее число" />
+                    <TableColumn fx:id="type_clm" prefWidth="96.0" text="Тип" />
+                    <TableColumn fx:id="med_title_clm" prefWidth="135.0" text="Медицинское учереждение" />
+               <TableColumn fx:id="spec_clm" prefWidth="116.0" text="Специальность" />
+                </columns>
+            </TableView>
+            <Button fx:id="execute1Btn" layoutX="266.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="236.0" style="-fx-background-color: #9966CC;" text="Выполнить запрос" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+        </children></AnchorPane>
+
+</AnchorPane>

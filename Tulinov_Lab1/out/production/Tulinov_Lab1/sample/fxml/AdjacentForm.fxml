@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="704.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AdjacentFormController">
+
+    <AnchorPane prefHeight="360.0" prefWidth="704.0">
+        <children>
+            <Button fx:id="addAButton" layoutX="14.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Добавить" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="198.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Удалить" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="517.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: #9966CC;" text="Назад" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+            <TableView fx:id="table_8" layoutX="12.0" layoutY="14.0" prefHeight="288.0" prefWidth="682.0">
+                <columns>
+                    <TableColumn fx:id="A_prof_clm" prefWidth="335.0" text="profile_id" />
+                    <TableColumn fx:id="A_med_inst_clm" prefWidth="346.0" text="med_institution_id" />
+                </columns>
+            </TableView>
+            <Button fx:id="changeButton4" layoutX="389.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="113.0" style="-fx-background-color: #9966CC;" text="Изменить" textFill="WHITE">
+                <font>
+                    <Font size="17.0" />
+                </font>
+            </Button>
+        </children></AnchorPane>
+
+</AnchorPane>
